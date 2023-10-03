@@ -1,0 +1,91 @@
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffebf0; /* Light pink background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container with a pinkish background and border */
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading with a pinkish text color and a cursive font */
+h1 {
+    text-align: center;
+    color: #ff007f; /* Bright pink text color */
+    font-family: cursive, "Arial", sans-serif;
+}
+
+/* Style the input container with a pink border and rounded input field */
+.input-container {
+    display: flex;
+}
+
+/* Style the task input with pink border and background */
+input[type="text"] {
+    flex-grow: 2;
+    padding: 10px;
+    border: 2px solid #ff007f; /* Pink border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff0f5; /* Light pink background */
+    font-family: "Arial", sans-serif;
+}
+
+/* Style the "Add" button with a pink background and white text */
+button {
+    padding: 10px 20px;
+    background-color: #ff007f; /* Pink background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0055; /* Darker pink on hover */
+}
+
+/* Style the task list with a pinkish border and padding */
+ul {
+    list-style-type: none;
+    padding: 10px;
+    border-top: 2px solid #ff007f; /* Pink border on top */
+}
+
+/* Style individual task items with a pinkish border and padding */
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ff007f; /* Pink border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style completed tasks with a pinkish background color */
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    background-color: #ffebf0; /* Light pink background for completed tasks */
+}
+
+/* Style the delete button with a pink background and white text */
+.delete-button {
+    margin-left: auto;
+    background-color: #ff0055; /* Pink background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #ff0033; /* Darker pink on hover */
+}
